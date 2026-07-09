@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "visual-patch-audit"
+version = "0.1.0"
+description = "Compare and audit image patches for VLM and computer vision workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MPL-2.0"
+authors = [
+    { name = "Eduardo J. Barrios", email = "edujbarrios@outlook.com" },
+]
+dependencies = [
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = [
+    "computer vision",
+    "image patches",
+    "visual similarity",
+    "vlm",
+    "dataset validation",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "build>=1.2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/edujbarrios/visual-patch-audit"
+Issues = "https://github.com/edujbarrios/visual-patch-audit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/visual_patch_audit"]

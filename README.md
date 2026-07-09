@@ -2,7 +2,7 @@
 
 Compare and audit image patches for VLM and computer vision workflows.
 
-[![PyPI](https://img.shields.io/pypi/v/visual-patch-audit)](https://pypi.org/project/visual-patch-audit/0.1.0/)
+[![PyPI](https://img.shields.io/badge/PyPI-0.1.0-blue)](https://pypi.org/project/visual-patch-audit/0.1.0/)
 ![License: MPL-2.0](https://img.shields.io/badge/License-MPL--2.0-blue.svg)
 
 ## Installation

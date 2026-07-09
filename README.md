@@ -34,9 +34,10 @@ print(report)
 
 This example compares a selected mountain/forest patch from one landscape image against a selected patch from another landscape image.
 
-| Reference image | Reference patch | Candidate image | Candidate patch |
-| --- | --- | --- | --- |
-| <img src="assets/readme/reference_image.png" width="260"> | <img src="assets/readme/reference_patch.png" width="140"> | <img src="assets/readme/candidate_image.png" width="260"> | <img src="assets/readme/candidate_patch.png" width="140"> |
+|  | Image | Patch |
+| --- | --- | --- |
+| Reference | <img src="assets/readme/reference_image.png" width="260"> | <img src="assets/readme/reference_patch.png" width="140"> |
+| Image to compare | <img src="assets/readme/candidate_image.png" width="260"> | <img src="assets/readme/candidate_patch.png" width="140"> |
 
 ```python
 from visual_patch_audit import compare_patch
